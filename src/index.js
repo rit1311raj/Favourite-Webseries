@@ -16,16 +16,16 @@ ReactDOM.render(
  />
 
  <Card
- imgsrc="https://www.hdwallpaper.nu/wp-content/uploads/2019/10/lucifer-1.jpg"
- title="A Netflix Original Series"
- sname="LUCIFER"
- link="https://www.netflix.com"
+ imgsrc={Sdata[1].imgscr}
+ title={Sdata[1].title}
+ sname={Sdata[1].sname}
+ link={Sdata[1].links}
  />
  <Card
- imgsrc="https://akm-img-a-in.tosshub.com/indiatoday/images/story/201902/mirzapur_thumb.jpeg?FDKkc_RBidQNSMawskkTHeTlDIVsNZQt"
- title="A Amazon Original Series"
- sname="MIRZAPUR"
- link="https://www.netflix.com"
+ imgsrc={Sdata[2].imgscr}
+ title={Sdata[2].title}
+ sname={Sdata[2].sname}
+ link={Sdata[2].links}
  />
 
 </>,
