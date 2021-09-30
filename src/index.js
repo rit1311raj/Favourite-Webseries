@@ -27,6 +27,13 @@ ReactDOM.render(
  sname={Sdata[2].sname}
  link={Sdata[2].links}
  />
+ <Card
+ imgsrc={Sdata[3].imgscr}
+ title={Sdata[3].title}
+ sname={Sdata[3].sname}
+ link={Sdata[3].links}
+ />
+
 
 </>,
 document.getElementById("root")

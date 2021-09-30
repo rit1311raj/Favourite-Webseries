@@ -21,10 +21,10 @@ const Sdata=[
         
     },
     {
-        sname: "DARK",
-        imgscr: "https://wallpapercave.com/wp/wp4056410.jpg",
-        title: "A Netflix Original Series",
-        links: "https://www.netflix.com"
+        sname: "FAMILY MAN",
+        imgscr: "https://getindianews.com/wp-content/uploads/2021/06/The-Family-Man-Season-2-1024x576.jpg",
+        title: "A Amazon Original Series",
+        links: "https://www.primevideo.com/ref=atv_nb_sf_hm"
         
     },
 
