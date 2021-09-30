@@ -5,7 +5,12 @@ import Sdata from "./Sdata"
 import "./index.css";
 
 
-function ncard(val){
+
+
+ReactDOM.render(
+<>
+<h1 className="heading_style">My Favourite Web Series!</h1>
+{Sdata.map((val,index)=>{
     return(
         <Card
          imgsrc={val.imgscr}
@@ -14,12 +19,7 @@ function ncard(val){
          link={val.links}
  />
     );
-}
-
-ReactDOM.render(
-<>
-<h1 className="heading_style">My Favourite Web Series!</h1>
-{Sdata.map(ncard)}
+})}
 </>,
 document.getElementById("root")
 );
